@@ -16,12 +16,12 @@ export default function MainHeader() {
         </Link>
         <nav className={classes.nav}>
           <ul>
-            <l1>
+            <li>
               <NavLink href="/meals">Browse Meals</NavLink>
-            </l1>
-            <l1>
+            </li>
+            <li>
               <NavLink href="/community">Foodies Community</NavLink>
-            </l1>
+            </li>
           </ul>
         </nav>
       </header>
